@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity"
+
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/text"
+
+            android:text="@string/q1"
+            />
+
+        <RadioGroup
+            android:id="@+id/ans1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans1_1"
+                style="@style/radio_odd"
+                android:text="@string/ans1.1" />
+
+            <RadioButton
+                android:id="@+id/ans1.2"
+                style="@style/radio_even"
+                android:text="@string/ans1.2" />
+
+            <RadioButton
+                android:id="@+id/ans1.3"
+                style="@style/radio_odd"
+                android:text="@string/ans1.3" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/text"
+            android:text="@string/q2" />
+
+        <RadioGroup
+            android:id="@+id/ans2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans2.1"
+                style="@style/radio_odd"
+                android:text="@string/ans2.1" />
+
+            <RadioButton
+                android:id="@+id/ans2.2"
+                style="@style/radio_even"
+                android:text="@string/ans2.2" />
+
+            <RadioButton
+                android:id="@+id/ans2.3"
+                style="@style/radio_odd"
+                android:text="@string/ans2.3" />
+
+            <RadioButton
+                android:id="@+id/ans2.4"
+                style="@style/radio_even"
+                android:text="@string/ans2.4" />
+
+            <RadioButton
+                android:id="@+id/ans2.5"
+                style="@style/radio_odd"
+                android:text="@string/ans2.5" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/text"
+            android:text="@string/q3" />
+
+        <RadioGroup
+            android:id="@+id/ans3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans3.1"
+                style="@style/radio_odd"
+                android:text="@string/ans3.1" />
+
+            <RadioButton
+                android:id="@+id/ans3.2"
+                style="@style/radio_even"
+                android:text="@string/ans3.2" />
+
+            <RadioButton
+                android:id="@+id/ans3.3"
+                style="@style/radio_odd"
+                android:text="@string/ans3.3" />
+
+            <RadioButton
+                android:id="@+id/ans3.4"
+                style="@style/radio_even"
+                android:text="@string/ans3.4" />
+
+            <RadioButton
+                android:id="@+id/ans3.5"
+                style="@style/radio_odd"
+                android:text="@string/ans3.5" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/text"
+            android:text="@string/q4" />
+
+        <RadioGroup
+            android:id="@+id/ans4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans4.1"
+                style="@style/radio_odd"
+                android:text="@string/ans4.1" />
+
+            <RadioButton
+                android:id="@+id/ans4.2"
+                style="@style/radio_even"
+                android:text="@string/ans4.2" />
+
+            <RadioButton
+                android:id="@+id/ans4.3"
+                style="@style/radio_odd"
+                android:text="@string/ans4.3" />
+
+            <RadioButton
+                android:id="@+id/ans4.4"
+                style="@style/radio_even"
+                android:text="@string/ans4.4" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/text"
+            android:text="@string/q5" />
+
+        <RadioGroup
+            android:id="@+id/ans5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans5.1"
+                style="@style/radio_odd"
+                android:text="@string/ans5.1" />
+
+            <RadioButton
+                android:id="@+id/ans5.2"
+                style="@style/radio_even"
+                android:text="@string/ans5.2" />
+
+            <RadioButton
+                android:id="@+id/ans5.3"
+                style="@style/radio_odd"
+                android:text="@string/ans5.3" />
+
+            <RadioButton
+                android:id="@+id/ans5.4"
+                style="@style/radio_even"
+                android:text="@string/ans5.4" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/text"
+            android:text="@string/q6" />
+
+        <RadioGroup
+            android:id="@+id/ans6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans6.1"
+                style="@style/radio_odd"
+                android:text="@string/ans6.1" />
+
+            <RadioButton
+                android:id="@+id/ans6.2"
+                style="@style/radio_even"
+                android:text="@string/ans6.2" />
+
+            <RadioButton
+                android:id="@+id/ans6.3"
+                style="@style/radio_odd"
+                android:text="@string/ans6.3" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/text"
+            android:text="@string/q7" />
+
+        <RadioGroup
+            android:id="@+id/ans7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans7.1"
+                style="@style/radio_odd"
+                android:text="@string/ans7.1" />
+
+            <RadioButton
+                android:id="@+id/ans7.2"
+                style="@style/radio_even"
+                android:text="@string/ans7.2" />
+
+            <RadioButton
+                android:id="@+id/ans7.3"
+                style="@style/radio_odd"
+                android:text="@string/ans7.3" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/text"
+            android:text="@string/q8" />
+
+        <RadioGroup
+            android:id="@+id/ans8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans8.1"
+                style="@style/radio_odd"
+                android:text="@string/ans8.1" />
+
+            <RadioButton
+                android:id="@+id/ans8.2"
+                style="@style/radio_even"
+                android:text="@string/ans8.2" />
+
+            <RadioButton
+                android:id="@+id/ans8.3"
+                style="@style/radio_odd"
+                android:text="@string/ans8.3" />
+
+            <RadioButton
+                android:id="@+id/ans8.4"
+                style="@style/radio_even"
+                android:text="@string/ans8.4" />
+
+            <RadioButton
+                android:id="@+id/ans8.5"
+                style="@style/radio_odd"
+                android:text="@string/ans8.5" />
+
+            <RadioButton
+                android:id="@+id/ans8.6"
+                style="@style/radio_even"
+                android:text="@string/ans8.6" />
+
+            <RadioButton
+                android:id="@+id/ans8.7"
+                style="@style/radio_odd"
+                android:text="@string/ans8.7" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/text"
+            android:text="@string/q9" />
+
+        <RadioGroup
+            android:id="@+id/ans9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans9.1"
+                style="@style/radio_odd"
+                android:text="@string/ans9.1" />
+
+            <RadioButton
+                android:id="@+id/ans9.2"
+                style="@style/radio_even"
+                android:text="@string/ans9.2" />
+
+            <RadioButton
+                android:id="@+id/ans9.3"
+                style="@style/radio_odd"
+                android:text="@string/ans9.3" />
+
+            <RadioButton
+                android:id="@+id/ans9.4"
+                style="@style/radio_even"
+                android:text="@string/ans9.4" />
+
+            <RadioButton
+                android:id="@+id/ans9.5"
+                style="@style/radio_odd"
+                android:text="@string/ans9.5" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/text"
+            android:text="@string/q10" />
+
+        <RadioGroup
+            android:id="@+id/ans10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ans10.1"
+                style="@style/radio_odd"
+                android:text="@string/ans10.1" />
+
+            <RadioButton
+                android:id="@+id/ans10.2"
+                style="@style/radio_even"
+                android:text="@string/ans10.2" />
+
+            <RadioButton
+                android:id="@+id/ans10.3"
+                style="@style/radio_odd"
+                android:text="@string/ans10.3" />
+
+            <RadioButton
+                android:id="@+id/ans10.4"
+                style="@style/radio_even"
+                android:text="@string/ans10.4" />
+
+            <RadioButton
+                android:id="@+id/ans10.5"
+                style="@style/radio_odd"
+                android:text="@string/ans10.5" />
+
+            <RadioButton
+                android:id="@+id/ans10.6"
+                style="@style/radio_even"
+                android:text="@string/ans10.6" />
+        </RadioGroup>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+
+                android:onClick="calculatePoints"
+                style="@style/btn"
+                android:text="@string/submit" />
+
+            <Button
+                android:onClick="reset"
+                style="@style/btn"
+
+                android:text="@string/res"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
